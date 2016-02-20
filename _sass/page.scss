@@ -14,10 +14,11 @@ body {
 
 .navigation-wrapper {
 	@include container;
-	padding: 2em 0 1em;
+	padding: 1em 0 1em;
 	font-family: $heading-font;
 	font-weight: 700;
 	text-transform: uppercase;
+	background-color: $black;
 	@include clearfix;
 }
 
@@ -26,7 +27,8 @@ body {
 	@include grid(12,10);
 	@include prefix(12,1);
 	@include suffix(12,1);
-	margin-bottom: 1em;
+	line-height: 40px;
+	background: url(../../images/tmbr_logo.png) left center no-repeat;
 	float: none;
 	display: block;
 	@include font-rem(24);
@@ -40,6 +42,10 @@ body {
 		@include grid(12,1.5);
 		@include prefix(12,2);
 	}
+	a{
+		color : $white;
+		padding-left: 50px;
+	}
 }
 
 /* Top navigation links */
@@ -47,7 +53,7 @@ body {
 	@include grid(12,10);
 	@include prefix(12,1);
 	@include suffix(12,1);
-	margin-bottom: 1em;
+	color: $white;
 	float: none;
 	display: block;
 	@media #{$small} {
@@ -82,8 +88,11 @@ body {
 		a {
 			display: block;
 			padding: 10px 0;
+			height: 40px;
+			line-height: 40px;
 			decoration: none;
 			border-bottom: 0 solid transparent;
+			color: $white;
 			@include transition(all .2s);
 			@media #{$small} {
 				display: inline;
