@@ -25,7 +25,7 @@ wordpress:
   web: http://wordpress.org
   email:
   bio: "opensource CMS software"
-  avatar: bio-photo.jpg
+  avatar: wordpress.jpg
   twitter:
   google:
     plus:

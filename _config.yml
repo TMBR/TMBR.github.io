@@ -43,11 +43,12 @@ titlecase: true
 owner:
   name: TMBR
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
+  bio: "We are a creative agency based in Jackson, WY. Working in Wordpress and Shopify."
+  email: webmaster@wearetmbr.com
+  disqus-shortname: devwearetmbr
+  twitter: wearetmbr
+  facebook: wearetmbr
+  web: http://wearetmbr.com
   google:
     plus: #username
     analytics:

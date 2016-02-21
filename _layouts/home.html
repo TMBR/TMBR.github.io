@@ -33,7 +33,31 @@
     {% include _author-bio.html %}
   </div>
   <div id="index">
-    <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
+    <h2>TMBR Best Practices</h2>
+    <p> This site serves a refernce for how TMBR developers should be writing code. Inspiration and based off the fantastic work of <a href="https://10up.github.io/Engineering-Best-Practices/"> 10up Engineering Best Practice </a></p>
+
+    <ul>
+      <li><a href="{{ site.url}}/posts/">Markup</a></li>
+      <li><a href="{{ site.url}}/posts/">CSS</a></li>
+      <li><a href="{{ site.url}}/posts/">PHP</a></li>
+      <li><a href="{{ site.url}}/posts/">JS</a></li>
+      <li><a href="{{ site.url}}/posts/">Structure</a></li>
+      <li><a href="{{ site.url}}/posts/">Tools</a></li>
+    </ul>
+
+    <hr />
+
+    <h5>Up and running with <a href="{{ site.url}}/wordpress/">wordpress</a> and <a href="{{ site.url}}/shopify/">shopify</a></h5>
+
+    <figure class="third">
+      <a href="{{ site.url}}/wordpress/"><img src="/images/wordpress.jpg"></a>
+      <a href="{{ site.url}}/shopify/"><img src="/images/shopify.jpg"></a>
+    </figure>
+
+
+    <hr />
+
+    <h5><a href="{{ site.url}}/posts/">Recent Posts</a></h5>
     {% for post in site.posts limit:5 %}
     <article>
       {% if post.link %}

@@ -1,15 +1,12 @@
 # Site navigation links
 
-- title: About
-  url: /about/
-
 - title: Shopify
   url: /shopify/
 
 - title: Wordpress
   url: /wordpress/
 
-- title: Sample Posts
+- title: Posts
   url: /posts/
 
 - title: Theme Setup
